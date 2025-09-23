@@ -1,0 +1,1832 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0E0E0E;
+}
+
+header {
+  background-color: rgba(0, 8, 8, 0.5);  
+  width: 90%;  
+  position: fixed;
+  top: 1%;  
+  left: 50%;
+  transform: translateX(-50%); 
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;  
+  height: 60px; 
+  border-radius: 20px;  
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);  
+  backdrop-filter: blur(8px);
+  flex-wrap: nowrap;  
+  overflow: hidden;  
+}
+
+.nav-textp {
+  color: #00ff99; 
+}
+.fas.fa-house {
+  color: #00ff99;
+}
+header > * {
+  margin-right: 20px;  
+  white-space: nowrap;  
+  color: white; 
+  font-family: 'Arial', sans-serif; 
+}
+
+header .site-title {
+  font-weight: normal;  
+  font-size: 18px;  
+  margin-right: auto;
+  letter-spacing: 1px;
+}
+
+header .options {
+  display: flex; 
+  justify-content: space-between;
+  width: 50%; 
+}
+
+header .options a {
+  font-size: 10px;  
+  font-weight: normal;  
+  text-decoration: none; 
+  color: white;  
+  letter-spacing: 0.5px; 
+}
+
+header .options a:hover {
+  color: #FFD700;
+  transition: color 0.3s ease;
+}
+
+.main {
+  margin-top: 80px; 
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  background: url('/Untitled60_20241011004127.png') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.Profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+    outline: 5px solid #00ff99;
+}
+.logo {
+  text-decoration: none;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.8em;
+}
+
+.navigation a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 40px;
+}
+
+.navigation a:hover {
+  color: #00ff99;
+}
+
+.main h2 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00ff99;
+  font-size: 3em;
+  font-weight: 600;
+   font-family: 'Playfair Display', serif;
+}
+
+.main h3 {
+  color: #FFFFFF;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main-btn, .main-btn1 {
+  color: #0E0E0E;
+  background-color: #00ff99;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 9px;
+  margin-bottom: 40px;
+  transition: 0.5s ease;
+
+}
+
+.main-btn:hover, .main-btn1:hover {
+  background-color: #004B17;
+  transform: scale(1.1);
+}
+
+.social-icons {
+  margin-top: -20px;
+}
+
+.social-icons a {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  padding-right: 20px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-icon.instagram {
+  font-family: 'Playfair Display', serif;
+}
+
+.social-icon.twitter {
+  font-family: 'Playfair Display', serif; 
+}
+
+.cards {
+  padding: -20px;
+}
+
+
+
+.card .icon {
+  font-size: 2em;
+  color: #00FF28;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.footer-section p {
+  font-size: 1.1em;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #00FF76;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #10190F;
+  width: 21.25em;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.3s ease;
+  border-radius: 30px 60px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  color: #1BB416;
+  font-size: 20em;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.more-details {
+  text-decoration: none;
+  color: #83B4FF;
+  margin-top: 0;
+}
+
+.more-details:hover {
+  color: #FDFFE2;
+}
+
+ .content .info h3 {
+   color: #3FB32B;
+ }
+
+@media (max-width:1023px){
+  header{
+    padding: 12px 20px;
+  }
+ 
+  .navigation a{
+    padding-left: 7px ;
+  }
+  
+  .title{
+    font-size: 1.8em;
+  }
+}
+
+.logo {
+  text-decoration: none;
+  color: #5AA062;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.0em;
+
+ z-index: 1; 
+}
+ 
+@media (max-width: 1023px) {
+  header {
+    padding: 12px 20px;
+  }
+
+  .navigation a {
+    padding-left: 7px;
+  }
+
+  .title {
+    font-size: 1.8em;
+  }
+}
+
+.logo {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.0em;
+}
+
+
+
+
+.projects {
+  padding: 50px;
+  background: linear-gradient(to bottom, #FFFFFF, #FFFFFF);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.projects::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  
+  z-index: 0;
+}
+
+.title {
+  font-size: 2.8em;
+  color: #00FF0A;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.projects {
+  padding: 50px 20px;
+  
+  color: #00FF2E;
+  text-align: center;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.projects-card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.projects-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.projects-card h3 {
+  padding: 10px;
+  font-size: 16px;
+  color: #00FF28;
+}
+
+.projects-card:hover {
+  transform: scale(1.05);
+}
+
+
+.load-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #38FF00;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.load-more:hover {
+  background-color: #008ECC;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #00FF6A;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  text-align: left;
+  color: #14FF00;
+}
+
+.modal-content .close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-content img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+.card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #0EFF00, #00c8ff);
+  opacity: 0.2;
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+.card-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #00FF0A;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card-content h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  color: #00FF16;
+}
+
+.card-content .btn {
+  padding: 10px 20px;
+  background: #00FF16;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.card-content .btn:hover {
+  background: #00FF2E;
+  color: #fff;
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid #5A72A0; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* مسافة فوق الصور */
+}
+
+.Languages {
+    width: 50px;  /* عرض الصورة */
+    height: 50px; /* ارتفاع الصورة */
+    margin: 0 5px; /* مسافة بين الصور */
+    object-fit: cover; /* الحفاظ على نسبة العرض إلى الارتفاع */
+}
+
+/* تنسيق قسم نموذج الاتصال */
+.contact, .request {
+    padding: 20px;
+    background-color: #FFFFFF; /* لون خلفية فاتح */
+    border-radius: 8px; /* زوايا دائرية */
+    margin: 20px 0; /* مسافة بين الأقسام */
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px; 
+    color: #FFFFFF;
+}
+
+.form-group label {
+    display: #000000; /* لجعل العناوين تأخذ مساحة كاملة */
+    margin-bottom: 5px; /* مسافة بين العنوان والحقل */
+    font-weight: #00FF1C; /* جعل الخط غامق */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* عرض كامل */
+    padding: 10px; /* مساحة داخلية */
+    border: 1px solid #ccc; /* حد بسيط */
+    border-radius: 4px; /* زوايا دائرية للحواف */
+    font-size: 16px; /* حجم الخط */
+}
+
+.form-group textarea {
+    resize: vertical; /* السماح بتغيير حجم المربع عمودياً فقط */
+    height: 100px; /* ارتفاع افتراضي لمربع النص */
+}
+
+.submit-btn {
+    display: block; /* لجعل الزر يأخذ مساحة كاملة */
+    width: 100%; /* عرض كامل */
+    padding: 10px; /* مساحة داخلية */
+    background-color: #00ff99;
+    color: white; /* لون الخط */
+    border: none; /* إزالة الحد */
+    border-radius: 4px; /* زوايا دائرية */
+    font-size: 16px; /* حجم الخط */
+    cursor: pointer; /* تغيير شكل المؤشر عند التحويم */
+    transition: background-color 0.3s; /* تأثير الانتقال عند التحويم */
+    
+}
+
+.submit-btn:hover {
+    background-color: #323232; /* تغيير لون الزر عند التحويم */
+}
+
+.form-group h1 {
+  color: #26FF00;
+}
+
+
+.form-group label {
+    color: #FFFFFF; /* تغيير لون نص العناوين داخل النموذج إلى الأبيض */
+}
+
+.submit-btn {
+    color: #000000;/* تغيير لون النص داخل الزر إلى الأبيض */
+}
+.form-group input,
+.form-group textarea {
+    width: 100%; /* عرض كامل */
+    padding: 10px; /* مساحة داخلية */
+    border: 1px solid #FFFFFF;
+    border-radius: 10px; /* زوايا دائرية للحواف */
+    font-size: 16px; /* حجم الخط */
+    background-color: #000000; /* لون الخلفية أغمق */
+    color: white; /* لون النص داخل الحقول */
+}
+
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+}
+
+h1 {
+    animation: shake 0.5s ease-in-out infinite;
+}
+
+/* النص */
+.about-text {
+    color: white; /* النص باللون الأبيض */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    position: relative;
+    padding-left: 25px; /* إزاحة النقاط */
+    margin-bottom: 10px;
+}
+
+.about-text p::before {
+    content: '•'; /* إضافة النقطة */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #00FF46; /* لون النقاط */
+    font-size: 25px;
+    line-height: 0;
+}
+
+/* عنوان القسم */
+h2.title {
+    color: #000000;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* الكاردات */
+.content .card {
+    background-color: #00FF5E;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.content .card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.languages {
+    display: flex;
+    gap: 10px;
+}
+
+.Languages {
+    width: 50px;
+    height: 50px;
+}
+
+.projects .content .card {
+    width: 10;
+    margin: 0 auto; /* لجعل الكروت تتوسط الصفحة */
+    border-radius: 8px; /* تحسين شكل الزوايا */
+    padding: 20px; /* إضافة مساحة داخلية */
+    
+}
+
+.language-button {
+  background-color: #000000; /* لون الخلفية */
+  color: white; /* لون النص */
+  border: none; /* إزالة الإطار */
+  border-radius: 10px; /* زوايا مائلة */
+  padding: 5px 9px; /* المسافة داخل الزر */
+  font-size: 16px; /* حجم النص */
+  font-family: Arial, sans-serif; /* نوع الخط */
+  cursor: pointer; /* مؤشر اليد عند التمرير */
+  outline: none; /* إزالة الإطار عند التحديد */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* ظل خفيف */
+  transition: background-color 0.3s; /* تأثير عند التمرير */
+}
+
+/* تأثير عند تمرير الماوس فوق الزر */
+.language-button:hover {
+  background-color: #454545; /* لون أغمق عند التمرير */
+}
+
+/* تصميم القائمة */
+.language-menu {
+  background-color: #02FF00; /* نفس لون الزر */
+  color: white; /* لون النص */
+  border-radius: 10px; /* زوايا مائلة */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* ظل خفيف */
+  overflow: hidden; /* لإخفاء الحواف الزائدة */
+  position: absolute; /* لجعلها تظهر أسفل الزر */
+  margin-top: 5px; /* مسافة صغيرة بين الزر والقائمة */
+  z-index: 1000; /* لتظهر فوق العناصر الأخرى */
+  display: none; /* إخفاء القائمة افتراضيًا */
+  padding: 0; /* إزالة المسافات */
+  width: 150px; /* عرض القائمة */
+}
+
+/* تصميم العناصر داخل القائمة */
+.language-menu div {
+  padding: 10px; /* مسافة داخلية */
+  font-size: 14px; /* حجم النص */
+  cursor: pointer; /* مؤشر اليد */
+  text-align: center; /* محاذاة النص في المنتصف */
+}
+
+/* تغيير اللون عند التمرير فوق العناصر */
+.language-menu div:hover {
+  background-color: #38FF00; /* لون أغمق */
+}
+
+/* الطبقة المغبشة */
+
+
+
+.language-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 99%; 
+    
+    max-width: 400px; /* تحديد الحد الأقصى للعرض */
+    padding: 30px; /* تقليل الحشوة */
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1000; /* تأكد من أنه في المقدمة */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* إضافة تأثير الظل */
+}
+
+.language-card h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.language-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.language-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.language-card ul li {
+    color: white; /* النقاط ستظل بيضاء */
+}
+
+.language-card button {
+    background-color: #FFFFFF; /* لون الخلفية */
+    color: black; /* لون الكتابة داخل الزر */
+    padding: 15px 0; /* جعل الأزرار بنفس الطول والعرض */
+    width: 100%; /* تأكد من أن الأزرار بنفس العرض */
+    margin: 10px 0; /* فصل الأزرار */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.language-card button:hover {
+    background-color: #4A6490; /* لون الخلفية عند المرور */
+}
+
+.social-icons {
+}
+
+.social-icon {
+  animation: jump 1s ease-in-out infinite; /* تطبيق الأنميشن */
+}
+
+.social-icon.instagram {
+  animation-delay: 0s; /* أول أيقونة تبدأ فورًا */
+}
+
+.social-icon.twitter {
+  animation-delay: 0.2s; /* التأخير قليلًا */
+}
+
+.social-icon.linkedin {
+  animation-delay: 0.4s; /* التأخير أكثر */
+}
+
+.social-icon.github {
+  animation-delay: 0.6s; /* التأخير أكثر */
+}
+
+.social-icon.discord {
+  animation-delay: 0.8s; /* التأخير أكثر */
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0); /* الصورة في مكانها */
+  }
+  30% {
+    transform: translateY(-5px); /* الأيقونة تقفز للأعلى */
+  }
+  50% {
+    transform: translateY(0); /* العودة إلى مكانها */
+  }
+  70% {
+    transform: translateY(-1px); /* قفز أخف */
+  }
+  100% {
+    transform: translateY(0); /* العودة إلى مكانها */
+  }
+}
+
+.divider {
+    border: none; /* إزالة الحدود الافتراضية */
+    border-top: 3px solid #FFFFFF;
+    
+    margin: 30px auto; /* المسافة حول الخط وجعله في المنتصف */
+    width: 80%; /* يجعل الخط يمتد عبر 80% من العرض */
+    position: relative; /* لتحديد مكان الصورة بالنسبة للخط */
+}
+
+.line-with-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.divider-image {
+    position: absolute;
+    top: -18px; 
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* تصميم القسم */
+.books {
+  padding: 50px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.books .title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* تصميم الحاوية */
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* تصميم الكتاب */
+.book {
+  perspective: 1000px;
+  width: 250px;
+  height: 400px;
+  position: relative;
+}
+
+.book-front, .book-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.6s;
+}
+
+/* واجهة الكتاب */
+.book-front {
+  background-color: #000000;
+  text-align: center;
+}
+
+.book-front img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  border-bottom: 3px solid #FFFFFF;
+}
+
+.book-front h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* خلفية الكتاب */
+.book-back {
+  background: linear-gradient(145deg, #000000, #000000);
+  color: #fff;
+  text-align: center;
+  transform: rotateY(180deg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-back h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.book-back p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.book-back span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FF5300;
+}
+
+
+.book-back .view-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #585E15; 
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.book-back .view-btn:hover {
+  background-color: #FFFFFF;
+}
+
+/* تأثير الدوران */
+.book:hover .book-front {
+  transform: rotateY(180deg);
+}
+
+.book:hover .book-back {
+  transform: rotateY(0deg);
+}
+
+/* تصميم متجاوب */
+@media (max-width: 768px) {
+  .book-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .book-container {
+    grid-template-columns: 1fr;
+  }
+}
+.languages-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.languages-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.languages-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* تمركز العناصر في المنتصف */
+  gap: 15px; /* مسافة بين العناصر */
+}
+
+.language-box {
+  flex: 1 1 calc(50% - 15px); /* خانتين في كل صف على الشاشات الصغيرة */
+  max-width: 200ٱpx; /* عرض ثابت */
+  height: 100px;
+  text-align: center;
+  background-color: #000000;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #26FF00;
+}
+
+.language-box img {
+  width: 30px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.language-box p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #79FF00;
+}
+
+/* التنسيق للشاشات الكبيرة */
+@media (min-width: 1024px) {
+  .languages-container {
+    flex-wrap: nowrap; /* لا يتم التفاف العناصر */
+    justify-content:0 ; /* العناصر في المنتصف */
+  }
+
+  .language-box {
+    flex: 1 1 auto; /* جميع العناصر في صف واحد */
+    max-width: 100px; /* عرض أصغر للخانات */
+  }
+}
+.language-box i {
+  font-size: 30px; /* زيادة حجم الأيقونات */
+  margin-bottom: 5px;
+  color: #7FFF00; /* لون الأيقونة */
+}
+
+.language-box {
+  flex: 1 1 calc(50% - 15px);
+  max-width: 200px;
+  height: 120px; /* زيادة الارتفاع */
+  text-align: center;
+  background-color: #00FF46;
+  border: 2px solid #00FF1C; /* تغيير الإطار إلى الأزرق */
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #6DFF00;
+}
+
+.language-box p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF; /* تغيير لون النص إلى الأبيض */
+}
+
+/* HTML لون */
+.language-box i.fa-html5 {
+    color: #e44d26; /* برتقالي HTML */
+}
+
+/* CSS لون */
+.language-box i.fa-css3-alt {
+    color: #2965f1; /* أزرق CSS */
+}
+
+/* JavaScript لون */
+.language-box i.fa-js-square {
+    color: #f7e018; /* أصفر JavaScript */
+}
+
+/* C لون */
+.language-box i.fa-code {
+    color: #a8b9cc; /* رمادي مزرق C */
+}
+
+/* C++ لون */
+.language-box i.fa-laptop-code {
+    color: #00599c; /* أزرق داكن C++ */
+}
+
+/* Java لون */
+.language-box i.fa-java {
+    color: #5382a1; /* أزرق Java */
+}
+
+/* Modern Card Design */
+.modern-cards-section {
+    padding: 50px;
+    color: #00FF52;
+    text-align: center;
+}
+
+.modern-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.modern-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.modern-card {
+    background: linear-gradient(145deg, #171717, #0E0E0E);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4), -4px -4px 10px rgba(255, 255, 255, 0.1); /* تخفيف الظل */
+    width: 280px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: left;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modern-card:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5), -6px -6px 15px rgba(255, 255, 255, 0.1); /* تخفيف الظل عند التمرير */
+}
+
+.modern-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #00FF6A;
+}
+
+.modern-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.modern-info p {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* تحسين العرض على الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .modern-card {
+        width: 95%; /* زيادة العرض إلى 90% */
+    }
+}
+
+
+
+/* الأنماط للمربعات */
+.card {
+  position: relative;
+  width: 190px;
+  height: 254px;
+  background-color: #00FF4C;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -5px;
+  margin: auto;
+  width: 200px;
+  height: 264px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #2CFF00 0%, #5A72A0 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #00FF70 0%, #26FF00 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.card p:not(.heading) {
+  font-size: 14px;
+}
+
+.card p:last-child {
+  color: #E81CFF;
+  font-weight: 600;
+}
+
+.card:hover::after {
+  filter: blur(30px);
+}
+
+.card:hover::before {
+  transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
+}
+
+
+.card {
+  position: relative;
+  width: 250px; /* عرض المربعات */
+  height: 150px; /* ارتفاع المربعات */
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+}
+
+.card img {
+  width: 50px; /* حجم الصورة */
+  height: 50px; /* حجم الصورة */
+  margin: 0 auto; /* جعل الصورة في المنتصف */
+  object-fit: contain;
+}
+
+/* التدرج (قبل العنصر) */
+.card::before {
+  content: '';
+  position: absolute;
+  width: 250px; /* نفس عرض الكارد */
+  height: 150px; /* نفس ارتفاع الكارد */
+  border-radius: 8px; /* نفس الحواف */
+  background: linear-gradient(-45deg, #000000 0%, #000000 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: scale(1) rotate(0deg); /* الحجم الأساسي */
+}
+
+/* تأثير الخلفية (بعد العنصر) */
+.card::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  width: 250px; /* نفس عرض الكارد */
+  height: 150px; /* نفس ارتفاع الكارد */
+  border-radius: 8px; /* نفس الحواف */
+  background: linear-gradient(-45deg, #000000 0%, #000000 100%);
+  transform: scale(0.95);
+  filter: blur(20px);
+}
+
+/* التأثير عند التمرير */
+.card:hover::before {
+  transform: scale(1) rotate(-170deg); /* تطابق الحجم مع الكارد أثناء الدوران */
+}
+
+.card:hover::after {
+  filter: blur(30px);
+}
+
+.heading {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.card p:not(.heading) {
+  font-size: 14px;
+}
+
+.card p:last-child {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.notification {
+  display: flex;
+  flex-direction: column;
+  isolation: isolate;
+  position: relative;
+  margin: 20px auto; /* إضافة مسافة رأسية بين الكروت مع الحفاظ على التوسيط */
+  width: 90%; /* العرض 90% */
+  height: 8rem;
+  background: #000000;
+  border-radius: 1rem;
+  overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  --gradient: linear-gradient(to bottom, #FFFFFF, #A3A3A3, #FFFFFF);
+  --color: #FFFFFF;
+}
+
+.notification:before {
+  position: absolute;
+  content: "";
+  inset: 0.0625rem;
+  border-radius: 0.9375rem;
+  background: #000000;
+  z-index: 2
+}
+
+.notification:after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--gradient);
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+
+.notification:hover:after {
+  transform: translateX(0.15rem)
+}
+
+.notititle {
+  color: var(--color);
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notification:hover .notititle {
+  transform: translateX(0.15rem)
+}
+
+.notibody {
+  color: #FFFFFF;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.notification:hover .notibody {
+  transform: translateX(0.25rem)
+}
+
+.notiglow,
+.notiborderglow {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle closest-side at center, white, transparent);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+
+.notiglow {
+  z-index: 3;
+}
+
+.notiborderglow {
+  z-index: 1;
+}
+
+.notification:hover .notiglow {
+  opacity: 0.1
+}
+
+.notification:hover .notiborderglow {
+  opacity: 0.1
+}
+
+.note {
+  color: var(--color);
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 0.9rem;
+  width: 75%;
+}
+
+/* محتوى الموقع */
+#main-content {
+  text-align: center;
+  color: #fff;
+}
+
+/* أنيميشن للبقاء في حركة */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* تطبيق الأنيميشن على كل حرف */
+#loading-screen p {
+  display: flex;
+}
+
+#loading-screen p span {
+  animation: bounce 1.0s infinite alternate;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.projects {
+  padding: 100px 20px;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+.projects__header {
+  margin-bottom: 50px;
+}
+
+.projects__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.projects__subtitle {
+  font-size: 1.2rem;
+  color: #38FF00;
+}
+
+.projects__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.project {
+  position: relative;
+}
+
+.project__image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.main-image {
+  opacity: 1;
+}
+
+.secondary-image {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.project__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  color: #FFFFFF;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.project__image-wrapper:hover .main-image {
+  opacity: 0;
+}
+
+.project__image-wrapper:hover .secondary-image {
+  opacity: 1;
+}
+
+.project:hover .project__overlay {
+  opacity: 1;
+}
+
+.project__name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.project__description {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.project__link {
+  font-size: 1rem;
+  color: #000000;
+  text-decoration: none;
+  background-color: #00ff99;
+  padding: 10px 20px;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  
+}
+
+@media (max-width: 768px) {
+  .projects__title {
+    font-size: 2.5rem;
+  }
+
+  .projects__container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .projects__title {
+    font-size: 2rem;
+  }
+
+  .projects__subtitle {
+    font-size: 1rem;
+  }
+}
+
+
+.add-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #000000;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.add-new__button {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00ff99;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.add-new__button:hover {
+  color: #FFFFFF;
+}
+
+.add-new:hover {
+  transform: scale(1.05);
+}
+
+.add-new__button i {
+  font-size: 2.5rem; /* حجم الأيقونة */
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.add-new__button i:hover {
+  color: #5A72A0;
+}
+
+
+a[href="index.html"] {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #000000;
+    color: #00ff99;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+@media (max-width: 768px) {
+    a[href="index.html"] {
+        position: relative;
+        top: auto;
+        left: auto;
+        display: block;
+        width: fit-content;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+/* إضافة مسافة من الأعلى للسيكشنات */
+#modern-services, #about, #projects, #books, #contact {
+    margin-top: 80px; /* تعديل المسافة بين السيكشنات */
+    padding-top: 20px; /* إضافة padding داخلي لتباعد أكبر إذا لزم الأمر */
+}
+
+@media (max-width: 768px) { /* عندما يكون عر
+
+/* التأكد من أن السيكشنات الأخرى تحتوي على المسافة */
+section {
+    margin-top: 50px;  /* المسافة لجميع السيكشنات */
+}
+
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.navigation i {
+    margin-right: 8px; /* لتحريك الأيقونة بعيدًا عن النص */
+}
+
+/* إخفاء النصوص في الشاشات الصغيرة */
+@media screen and (max-width: 768px) {
+    .navigation a {
+        font-size: 0; /* إخفاء النصوص */
+    }
+
+    .navigation a i {
+        font-size: 24px; /* حجم الأيقونة */
+    }
+}
+
+
+/* تطبيق التأثير على الأيقونات */
+.navigation a i {
+    animation: blink 1.5s infinite; /* التأثير يستمر إلى ما لا نهاية */
+}
+
+/* تغيير اللون في الشاشات الصغيرة */
+@media screen and (max-width: 768px) {
+    .navigation a i {
+        animation: blink 2.5s infinite;
+    }
+}
+
+@media (max-width: 768px) {  
+    .nav-item {  
+        display: flex;  
+        flex-direction: column; /* تجعل النص تحت الأيقونة */  
+        align-items: center;  
+    }  
+
+    .nav-text {  
+        display: block; 
+        font-size: 1px;   
+        margin-top: 2px; 
+        color: white; 
+    }  
+}
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  padding: 14px 24px;
+  border-radius: 10px;
+  background:#000000;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  min-width: 200px;
+  text-align: center;
+}
+.contact-card h {
+  color: #00ff99;
+}
+.fa-solid.fa-phone {
+  color: #00ff99;
+}
+.fa-solid.fa-envelope {
+  color: #00ff99;
+}
+.contact-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact-card i {
+  font-size: 22px;
+}
+
+.title h2{
+  color: #00ff99;
+}
+
+#projects {
+    background: none;
+}
+
+#contact {
+    background: none !important;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+}
+
+input:focus {
+  outline: 2px solid #00ff99;
+}
+
+textarea:focus {
+  outline: 2px solid #00ff99;
+}
+
+h2 .wave {
+  display: inline-block;
+  animation: wave-animation 2s infinite;
+  transform-origin: 70% 70%;
+  font-size:50px;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(14deg); }
+  30% { transform: rotate(-8deg); }
+  40% { transform: rotate(14deg); }
+  50% { transform: rotate(-4deg); }
+  60% { transform: rotate(10deg); }
+  70% { transform: rotate(0deg); }
+  100% { transform: rotate }
+}
+
+
+
+@media (max-width: 600px) {
+  .wave {
+    display: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-textp {
+    display: none !important;
+  }
+
+@media (max-width: 768px) {
+  logo.nav-item {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .navigation {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 30px !important; /* زودت المسافة بين الروابط */
+  }
+
+  /* لو تبي مسافة بين الأيقونة والنص داخل كل رابط */
+  .nav-item i {
+    margin-right: 8px;
+  }
+}
