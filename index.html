@@ -36,28 +36,28 @@
 </a
     <nav class="navigation">
       <a href="#modern-services" class="nav-item">
-        <i class="fas fa-cogs"></i> <!-- أيقونة للخدمات -->
+        <i class="fas fa-cogs"></i> 
         <span class="nav-text">Services</span>
       </a>
       <a href="#about" class="nav-item">
-        <i class="fas fa-user"></i> <!-- أيقونة حول -->
+        <i class="fas fa-user"></i> 
         <span class="nav-text">About</span>
       </a>
       <a href="#projects" class="nav-item">
-        <i class="fas fa-briefcase"></i> <!-- أيقونة المشاريع -->
+        <i class="fas fa-briefcase"></i> 
         <span class="nav-text">Projects</span>
       </a>
       <a href="#books" class="nav-item">
-        <i class="fas fa-book"></i> <!-- أيقونة الكتب -->
+        <i class="fas fa-book"></i> 
         <span class="nav-text">Books</span>
       </a>
       <a href="#contact" class="nav-item">
-        <i class="fas fa-phone"></i> <!-- أيقونة الاتصال -->
+        <i class="fas fa-phone"></i> 
         <span class="nav-text">Contact</span>
       </a>
     </nav>
   
-    <!-- قائمة اللغة -->
+
     <div class="language-selector">
       <button id="language-button" class="language-button">🇺🇲 Eng</button>
       <div id="language-menu" class="language-menu">
@@ -136,7 +136,7 @@
         </div>
         <div class="modern-card">
     <div class="modern-icon">
-        <i class="fa-solid fa-bug"></i> <!-- أيقونة تعبر عن الثغرات -->
+        <i class="fa-solid fa-bug"></i> 
     </div>
     <div class="modern-info">
         <h3>Bug Bounty Hunter</h3>
@@ -436,7 +436,6 @@
 
 
 <script>
-// إنشاء العنصر
 const canvas = document.createElement('canvas');
 document.body.appendChild(canvas);
 const ctx = canvas.getContext('2d');
@@ -449,7 +448,7 @@ function resizeCanvas() {
 resizeCanvas();
 window.addEventListener('resize', resizeCanvas);
 
-// عدد الجسيمات حسب حجم الشاشة
+
 const isSmall = window.innerWidth < 768;
 const particleCount = isSmall ? 30 : 40;
 const maxDistance = 100;
