@@ -493,22 +493,22 @@ header .options a:hover {
 .languages {
     display: flex;
     justify-content: center;
-    margin-top: 10px; /* مسافة فوق الصور */
+    margin-top: 10px; 
 }
 
 .Languages {
-    width: 50px;  /* عرض الصورة */
-    height: 50px; /* ارتفاع الصورة */
-    margin: 0 5px; /* مسافة بين الصور */
-    object-fit: cover; /* الحفاظ على نسبة العرض إلى الارتفاع */
+    width: 50px;  
+    height: 50px; 
+    margin: 0 5px; 
+    object-fit: cover; 
 }
 
-/* تنسيق قسم نموذج الاتصال */
+
 .contact, .request {
     padding: 20px;
-    background-color: #FFFFFF; /* لون خلفية فاتح */
-    border-radius: 8px; /* زوايا دائرية */
-    margin: 20px 0; /* مسافة بين الأقسام */
+    background-color: #FFFFFF; 
+    border-radius: 8px; 
+    margin: 20px 0; 
 }
 
 .title {
@@ -523,41 +523,41 @@ header .options a:hover {
 }
 
 .form-group label {
-    display: #000000; /* لجعل العناوين تأخذ مساحة كاملة */
-    margin-bottom: 5px; /* مسافة بين العنوان والحقل */
-    font-weight: #00FF1C; /* جعل الخط غامق */
+    display: #000000; 
+    margin-bottom: 5px; 
+    font-weight: #00FF1C; 
 }
 
 .form-group input,
 .form-group textarea {
-    width: 100%; /* عرض كامل */
-    padding: 10px; /* مساحة داخلية */
-    border: 1px solid #ccc; /* حد بسيط */
-    border-radius: 4px; /* زوايا دائرية للحواف */
-    font-size: 16px; /* حجم الخط */
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
 }
 
 .form-group textarea {
-    resize: vertical; /* السماح بتغيير حجم المربع عمودياً فقط */
-    height: 100px; /* ارتفاع افتراضي لمربع النص */
+    resize: vertical; 
+    height: 100px; 
 }
 
 .submit-btn {
-    display: block; /* لجعل الزر يأخذ مساحة كاملة */
-    width: 100%; /* عرض كامل */
-    padding: 10px; /* مساحة داخلية */
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
     background-color: #00ff99;
-    color: white; /* لون الخط */
-    border: none; /* إزالة الحد */
-    border-radius: 4px; /* زوايا دائرية */
-    font-size: 16px; /* حجم الخط */
-    cursor: pointer; /* تغيير شكل المؤشر عند التحويم */
-    transition: background-color 0.3s; /* تأثير الانتقال عند التحويم */
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
     
 }
 
 .submit-btn:hover {
-    background-color: #323232; /* تغيير لون الزر عند التحويم */
+    background-color: #323232; 
 }
 
 .form-group h1 {
@@ -566,21 +566,21 @@ header .options a:hover {
 
 
 .form-group label {
-    color: #FFFFFF; /* تغيير لون نص العناوين داخل النموذج إلى الأبيض */
+    color: #FFFFFF;
 }
 
 .submit-btn {
-    color: #000000;/* تغيير لون النص داخل الزر إلى الأبيض */
+    color: #000000;
 }
 .form-group input,
 .form-group textarea {
-    width: 100%; /* عرض كامل */
-    padding: 10px; /* مساحة داخلية */
+    width: 100%; 
+    padding: 10px; 
     border: 1px solid #FFFFFF;
-    border-radius: 10px; /* زوايا دائرية للحواف */
-    font-size: 16px; /* حجم الخط */
-    background-color: #000000; /* لون الخلفية أغمق */
-    color: white; /* لون النص داخل الحقول */
+    border-radius: 10px;
+    font-size: 16px; 
+    background-color: #000000;
+    color: white; 
 }
 
 
@@ -594,9 +594,8 @@ h1 {
     animation: shake 0.5s ease-in-out infinite;
 }
 
-/* النص */
 .about-text {
-    color: white; /* النص باللون الأبيض */
+    color: white; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     line-height: 1.8;
@@ -605,21 +604,20 @@ h1 {
 
 .about-text p {
     position: relative;
-    padding-left: 25px; /* إزاحة النقاط */
+    padding-left: 25px; 
     margin-bottom: 10px;
 }
 
 .about-text p::before {
-    content: '•'; /* إضافة النقطة */
+    content: '•'; 
     position: absolute;
     left: 0;
     top: 0;
-    color: #00FF46; /* لون النقاط */
+    color: #00FF46; 
     font-size: 25px;
     line-height: 0;
 }
 
-/* عنوان القسم */
 h2.title {
     color: #000000;
     text-align: center;
@@ -627,7 +625,6 @@ h2.title {
     margin-bottom: 40px;
 }
 
-/* الكاردات */
 .content .card {
     background-color: #00FF5E;
     color: white;
@@ -653,62 +650,56 @@ h2.title {
 
 .projects .content .card {
     width: 10;
-    margin: 0 auto; /* لجعل الكروت تتوسط الصفحة */
-    border-radius: 8px; /* تحسين شكل الزوايا */
-    padding: 20px; /* إضافة مساحة داخلية */
+    margin: 0 auto; 
+    border-radius: 8px; 
+    padding: 20px; 
     
 }
 
 .language-button {
-  background-color: #000000; /* لون الخلفية */
-  color: white; /* لون النص */
-  border: none; /* إزالة الإطار */
-  border-radius: 10px; /* زوايا مائلة */
-  padding: 5px 9px; /* المسافة داخل الزر */
-  font-size: 16px; /* حجم النص */
-  font-family: Arial, sans-serif; /* نوع الخط */
-  cursor: pointer; /* مؤشر اليد عند التمرير */
-  outline: none; /* إزالة الإطار عند التحديد */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* ظل خفيف */
-  transition: background-color 0.3s; /* تأثير عند التمرير */
+  background-color: #000000; 
+  color: white; 
+  border: none; 
+  border-radius: 10px; 
+  padding: 5px 9px; 
+  font-size: 16px; 
+  font-family: Arial, sans-serif; 
+  cursor: pointer; 
+  outline: none; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s; 
 }
 
-/* تأثير عند تمرير الماوس فوق الزر */
 .language-button:hover {
-  background-color: #454545; /* لون أغمق عند التمرير */
+  background-color: #454545; 
 }
 
-/* تصميم القائمة */
 .language-menu {
-  background-color: #02FF00; /* نفس لون الزر */
-  color: white; /* لون النص */
-  border-radius: 10px; /* زوايا مائلة */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* ظل خفيف */
-  overflow: hidden; /* لإخفاء الحواف الزائدة */
-  position: absolute; /* لجعلها تظهر أسفل الزر */
-  margin-top: 5px; /* مسافة صغيرة بين الزر والقائمة */
-  z-index: 1000; /* لتظهر فوق العناصر الأخرى */
-  display: none; /* إخفاء القائمة افتراضيًا */
-  padding: 0; /* إزالة المسافات */
-  width: 150px; /* عرض القائمة */
+  background-color: #02FF00; 
+  color: white; 
+  border-radius: 10px; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden; 
+  position: absolute;
+  margin-top: 5px; 
+  z-index: 1000; 
+  display: none; 
+  padding: 0;
+  width: 150px;
 }
 
-/* تصميم العناصر داخل القائمة */
+
 .language-menu div {
-  padding: 10px; /* مسافة داخلية */
-  font-size: 14px; /* حجم النص */
-  cursor: pointer; /* مؤشر اليد */
-  text-align: center; /* محاذاة النص في المنتصف */
+  padding: 10px; 
+  font-size: 14px; 
+  cursor: pointer; 
+  text-align: center; 
 }
 
-/* تغيير اللون عند التمرير فوق العناصر */
+
 .language-menu div:hover {
-  background-color: #38FF00; /* لون أغمق */
+  background-color: #38FF00; 
 }
-
-/* الطبقة المغبشة */
-
-
 
 .language-card {
     position: fixed;
@@ -717,14 +708,14 @@ h2.title {
     transform: translate(-50%, -50%);
     width: 99%; 
     
-    max-width: 400px; /* تحديد الحد الأقصى للعرض */
-    padding: 30px; /* تقليل الحشوة */
+    max-width: 400px; 
+    padding: 30px;
     background-color: #000000;
     color: white;
     border-radius: 10px;
     text-align: center;
-    z-index: 1000; /* تأكد من أنه في المقدمة */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* إضافة تأثير الظل */
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .language-card h2 {
@@ -749,15 +740,15 @@ h2.title {
 }
 
 .language-card ul li {
-    color: white; /* النقاط ستظل بيضاء */
+    color: white;
 }
 
 .language-card button {
-    background-color: #FFFFFF; /* لون الخلفية */
-    color: black; /* لون الكتابة داخل الزر */
-    padding: 15px 0; /* جعل الأزرار بنفس الطول والعرض */
-    width: 100%; /* تأكد من أن الأزرار بنفس العرض */
-    margin: 10px 0; /* فصل الأزرار */
+    background-color: #FFFFFF;
+    color: black; 
+    padding: 15px 0; 
+    width: 100%; 
+    margin: 10px 0; 
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -766,61 +757,61 @@ h2.title {
 }
 
 .language-card button:hover {
-    background-color: #4A6490; /* لون الخلفية عند المرور */
+    background-color: #4A6490;
 }
 
 .social-icons {
 }
 
 .social-icon {
-  animation: jump 1s ease-in-out infinite; /* تطبيق الأنميشن */
+  animation: jump 1s ease-in-out infinite; 
 }
 
 .social-icon.instagram {
-  animation-delay: 0s; /* أول أيقونة تبدأ فورًا */
+  animation-delay: 0s; 
 }
 
 .social-icon.twitter {
-  animation-delay: 0.2s; /* التأخير قليلًا */
+  animation-delay: 0.2s; 
 }
 
 .social-icon.linkedin {
-  animation-delay: 0.4s; /* التأخير أكثر */
+  animation-delay: 0.4s;
 }
 
 .social-icon.github {
-  animation-delay: 0.6s; /* التأخير أكثر */
+  animation-delay: 0.6s; 
 }
 
 .social-icon.discord {
-  animation-delay: 0.8s; /* التأخير أكثر */
+  animation-delay: 0.8s;
 }
 
 @keyframes jump {
   0% {
-    transform: translateY(0); /* الصورة في مكانها */
+    transform: translateY(0);
   }
   30% {
-    transform: translateY(-5px); /* الأيقونة تقفز للأعلى */
+    transform: translateY(-5px); 
   }
   50% {
-    transform: translateY(0); /* العودة إلى مكانها */
+    transform: translateY(0); 
   }
   70% {
-    transform: translateY(-1px); /* قفز أخف */
+    transform: translateY(-1px); 
   }
   100% {
-    transform: translateY(0); /* العودة إلى مكانها */
+    transform: translateY(0); 
   }
 }
 
 .divider {
-    border: none; /* إزالة الحدود الافتراضية */
+    border: none; 
     border-top: 3px solid #FFFFFF;
     
-    margin: 30px auto; /* المسافة حول الخط وجعله في المنتصف */
-    width: 80%; /* يجعل الخط يمتد عبر 80% من العرض */
-    position: relative; /* لتحديد مكان الصورة بالنسبة للخط */
+    margin: 30px auto; 
+    width: 80%;
+    position: relative; 
 }
 
 .line-with-image {
@@ -840,7 +831,6 @@ h2.title {
     object-fit: cover;
 }
 
-/* تصميم القسم */
 .books {
   padding: 50px;
   color: #FFFFFF;
@@ -855,7 +845,7 @@ h2.title {
   letter-spacing: 2px;
 }
 
-/* تصميم الحاوية */
+
 .book-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -863,7 +853,6 @@ h2.title {
   justify-items: center;
 }
 
-/* تصميم الكتاب */
 .book {
   perspective: 1000px;
   width: 250px;
@@ -882,7 +871,6 @@ h2.title {
   transition: transform 0.6s;
 }
 
-/* واجهة الكتاب */
 .book-front {
   background-color: #000000;
   text-align: center;
@@ -900,7 +888,6 @@ h2.title {
   margin-top: 10px;
 }
 
-/* خلفية الكتاب */
 .book-back {
   background: linear-gradient(145deg, #000000, #000000);
   color: #fff;
@@ -947,7 +934,7 @@ h2.title {
   background-color: #FFFFFF;
 }
 
-/* تأثير الدوران */
+
 .book:hover .book-front {
   transform: rotateY(180deg);
 }
@@ -956,7 +943,6 @@ h2.title {
   transform: rotateY(0deg);
 }
 
-/* تصميم متجاوب */
 @media (max-width: 768px) {
   .book-container {
     grid-template-columns: repeat(2, 1fr);
@@ -982,13 +968,13 @@ h2.title {
 .languages-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* تمركز العناصر في المنتصف */
-  gap: 15px; /* مسافة بين العناصر */
+  justify-content: center;
+  gap: 15px; 
 }
 
 .language-box {
-  flex: 1 1 calc(50% - 15px); /* خانتين في كل صف على الشاشات الصغيرة */
-  max-width: 200ٱpx; /* عرض ثابت */
+  flex: 1 1 calc(50% - 15px);
+  max-width: 200ٱpx;
   height: 100px;
   text-align: center;
   background-color: #000000;
@@ -1011,31 +997,30 @@ h2.title {
   color: #79FF00;
 }
 
-/* التنسيق للشاشات الكبيرة */
 @media (min-width: 1024px) {
   .languages-container {
-    flex-wrap: nowrap; /* لا يتم التفاف العناصر */
-    justify-content:0 ; /* العناصر في المنتصف */
+    flex-wrap: nowrap; 
+    justify-content:0 ; 
   }
 
   .language-box {
-    flex: 1 1 auto; /* جميع العناصر في صف واحد */
-    max-width: 100px; /* عرض أصغر للخانات */
+    flex: 1 1 auto;
+    max-width: 100px; 
   }
 }
 .language-box i {
-  font-size: 30px; /* زيادة حجم الأيقونات */
+  font-size: 30px; 
   margin-bottom: 5px;
-  color: #7FFF00; /* لون الأيقونة */
+  color: #7FFF00; 
 }
 
 .language-box {
   flex: 1 1 calc(50% - 15px);
   max-width: 200px;
-  height: 120px; /* زيادة الارتفاع */
+  height: 120px;
   text-align: center;
   background-color: #00FF46;
-  border: 2px solid #00FF1C; /* تغيير الإطار إلى الأزرق */
+  border: 2px solid #00FF1C; 
   border-radius: 6px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -1045,40 +1030,40 @@ h2.title {
 .language-box p {
   font-size: 14px;
   font-weight: bold;
-  color: #FFFFFF; /* تغيير لون النص إلى الأبيض */
+  color: #FFFFFF;
 }
 
-/* HTML لون */
+
 .language-box i.fa-html5 {
-    color: #e44d26; /* برتقالي HTML */
+    color: #e44d26; 
 }
 
-/* CSS لون */
+
 .language-box i.fa-css3-alt {
-    color: #2965f1; /* أزرق CSS */
+    color: #2965f1; 
 }
 
-/* JavaScript لون */
+
 .language-box i.fa-js-square {
-    color: #f7e018; /* أصفر JavaScript */
+    color: #f7e018; 
 }
 
-/* C لون */
+
 .language-box i.fa-code {
-    color: #a8b9cc; /* رمادي مزرق C */
+    color: #a8b9cc;
 }
 
-/* C++ لون */
+
 .language-box i.fa-laptop-code {
-    color: #00599c; /* أزرق داكن C++ */
+    color: #00599c;
 }
 
-/* Java لون */
+
 .language-box i.fa-java {
-    color: #5382a1; /* أزرق Java */
+    color: #5382a1; 
 }
 
-/* Modern Card Design */
+
 .modern-cards-section {
     padding: 50px;
     color: #00FF52;
@@ -1101,7 +1086,7 @@ h2.title {
 
 .modern-card {
     background: linear-gradient(145deg, #171717, #0E0E0E);
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4), -4px -4px 10px rgba(255, 255, 255, 0.1); /* تخفيف الظل */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4), -4px -4px 10px rgba(255, 255, 255, 0.1); 
     width: 280px;
     border-radius: 20px;
     overflow: hidden;
@@ -1112,7 +1097,7 @@ h2.title {
 
 .modern-card:hover {
     transform: scale(1.05);
-    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5), -6px -6px 15px rgba(255, 255, 255, 0.1); /* تخفيف الظل عند التمرير */
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5), -6px -6px 15px rgba(255, 255, 255, 0.1); 
 }
 
 .modern-icon {
@@ -1134,16 +1119,15 @@ h2.title {
     line-height: 1.6;
 }
 
-/* تحسين العرض على الشاشات الصغيرة */
+
 @media (max-width: 768px) {
     .modern-card {
-        width: 95%; /* زيادة العرض إلى 90% */
+        width: 95%;
     }
 }
 
 
 
-/* الأنماط للمربعات */
 .card {
   position: relative;
   width: 190px;
@@ -1211,8 +1195,8 @@ h2.title {
 
 .card {
   position: relative;
-  width: 250px; /* عرض المربعات */
-  height: 150px; /* ارتفاع المربعات */
+  width: 250px;
+  height: 150px;
   background-color: #000000;
   display: flex;
   flex-direction: column;
@@ -1226,43 +1210,42 @@ h2.title {
 }
 
 .card img {
-  width: 50px; /* حجم الصورة */
-  height: 50px; /* حجم الصورة */
-  margin: 0 auto; /* جعل الصورة في المنتصف */
+  width: 50px;
+  height: 50px; 
+  margin: 0 auto; 
   object-fit: contain;
 }
 
-/* التدرج (قبل العنصر) */
+
 .card::before {
   content: '';
   position: absolute;
-  width: 250px; /* نفس عرض الكارد */
-  height: 150px; /* نفس ارتفاع الكارد */
-  border-radius: 8px; /* نفس الحواف */
+  width: 250px;
+  height: 150px;
+  border-radius: 8px; 
   background: linear-gradient(-45deg, #000000 0%, #000000 100%);
   z-index: -10;
   pointer-events: none;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transform: scale(1) rotate(0deg); /* الحجم الأساسي */
+  transform: scale(1) rotate(0deg); 
 }
 
-/* تأثير الخلفية (بعد العنصر) */
+
 .card::after {
   content: "";
   z-index: -1;
   position: absolute;
   inset: 0;
-  width: 250px; /* نفس عرض الكارد */
-  height: 150px; /* نفس ارتفاع الكارد */
-  border-radius: 8px; /* نفس الحواف */
+  width: 250px; 
+  height: 150px; 
+  border-radius: 8px; 
   background: linear-gradient(-45deg, #000000 0%, #000000 100%);
   transform: scale(0.95);
   filter: blur(20px);
 }
 
-/* التأثير عند التمرير */
 .card:hover::before {
-  transform: scale(1) rotate(-170deg); /* تطابق الحجم مع الكارد أثناء الدوران */
+  transform: scale(1) rotate(-170deg);
 }
 
 .card:hover::after {
@@ -1289,8 +1272,8 @@ h2.title {
   flex-direction: column;
   isolation: isolate;
   position: relative;
-  margin: 20px auto; /* إضافة مسافة رأسية بين الكروت مع الحفاظ على التوسيط */
-  width: 90%; /* العرض 90% */
+  margin: 20px auto; 
+  width: 90%; 
   height: 8rem;
   background: #000000;
   border-radius: 1rem;
@@ -1387,13 +1370,11 @@ h2.title {
   width: 75%;
 }
 
-/* محتوى الموقع */
 #main-content {
   text-align: center;
   color: #fff;
 }
 
-/* أنيميشن للبقاء في حركة */
 @keyframes bounce {
   0% {
     transform: translateY(0);
@@ -1406,7 +1387,6 @@ h2.title {
   }
 }
 
-/* تطبيق الأنيميشن على كل حرف */
 #loading-screen p {
   display: flex;
 }
@@ -1592,7 +1572,7 @@ body {
 }
 
 .add-new__button i {
-  font-size: 2.5rem; /* حجم الأيقونة */
+  font-size: 2.5rem;
   color: white;
   transition: color 0.3s ease;
 }
@@ -1629,17 +1609,14 @@ a[href="index.html"] {
     }
 }
 
-/* إضافة مسافة من الأعلى للسيكشنات */
 #modern-services, #about, #projects, #books, #contact {
-    margin-top: 80px; /* تعديل المسافة بين السيكشنات */
-    padding-top: 20px; /* إضافة padding داخلي لتباعد أكبر إذا لزم الأمر */
+    margin-top: 80px;
+    padding-top: 20px; 
 }
 
-@media (max-width: 768px) { /* عندما يكون عر
-
-/* التأكد من أن السيكشنات الأخرى تحتوي على المسافة */
+@media (max-width: 768px) { 
 section {
-    margin-top: 50px;  /* المسافة لجميع السيكشنات */
+    margin-top: 50px;  
 }
 
 
@@ -1662,27 +1639,27 @@ section {
 }
 
 .navigation i {
-    margin-right: 8px; /* لتحريك الأيقونة بعيدًا عن النص */
+    margin-right: 8px; 
 }
 
-/* إخفاء النصوص في الشاشات الصغيرة */
+
 @media screen and (max-width: 768px) {
     .navigation a {
-        font-size: 0; /* إخفاء النصوص */
+        font-size: 0; 
     }
 
     .navigation a i {
-        font-size: 24px; /* حجم الأيقونة */
+        font-size: 24px; 
     }
 }
 
 
-/* تطبيق التأثير على الأيقونات */
+
 .navigation a i {
-    animation: blink 1.5s infinite; /* التأثير يستمر إلى ما لا نهاية */
+    animation: blink 1.5s infinite; 
 }
 
-/* تغيير اللون في الشاشات الصغيرة */
+
 @media screen and (max-width: 768px) {
     .navigation a i {
         animation: blink 2.5s infinite;
@@ -1692,7 +1669,7 @@ section {
 @media (max-width: 768px) {  
     .nav-item {  
         display: flex;  
-        flex-direction: column; /* تجعل النص تحت الأيقونة */  
+        flex-direction: column;
         align-items: center;  
     }  
 
@@ -1822,10 +1799,9 @@ h2 .wave {
   .navigation {
     display: flex !important;
     justify-content: center !important;
-    gap: 30px !important; /* زودت المسافة بين الروابط */
+    gap: 30px !important;
   }
 
-  /* لو تبي مسافة بين الأيقونة والنص داخل كل رابط */
   .nav-item i {
     margin-right: 8px;
   }
