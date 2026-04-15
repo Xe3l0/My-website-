@@ -1,0 +1,1 @@
+An old portfolio project from my early days of learning. It has some bugs and layout issues due to the old coding environment I was using back then. Keeping it here as a simple archive of my progress.
